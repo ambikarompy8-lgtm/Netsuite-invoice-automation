@@ -1,25 +1,116 @@
-NetSuite-Style Invoice Approval Workflow Automation
-📌 Overview
-This project simulates a NetSuite-style invoice approval workflow used in ERP systems to automate financial processes.
 
-🎯 Problem
-Manual invoice approvals were time-consuming and prone to delays, especially for high-value transactions.
+# NetSuite Invoice Automation
 
-⚙️ Solution
-Designed a rule-based workflow:
+ERP-style invoice approval workflow automation inspired by NetSuite business processes.
 
-Invoices ≤ $5,000 → Automatically approved
-Invoices > $5,000 → Sent for managerial approval
-🧠 Workflow Logic
-Conditional approval routing based on invoice amount
-Dynamic status updates
-Approval tracking (Approved By, Date)
-🛠️ Tools Used
-Microsoft Excel (workflow simulation)
-Business process design
-📊 Key Features
-Automated approval logic
-Reduced manual intervention
-Real-time status tracking
-🚀 Outcome
-Improved efficiency in invoice processing by simulating automated workflows similar to NetSuite ERP systems.
+## Overview
+
+This project simulates an enterprise invoice approval workflow designed to streamline financial operations and reduce manual processing effort. The system automatically routes invoices based on approval thresholds, helping demonstrate ERP workflow automation concepts commonly used in NetSuite and enterprise finance systems.
+
+The project focuses on workflow orchestration, approval logic, and operational process automation for accounts payable scenarios.
+
+---
+
+## Features
+
+* Automated invoice approval routing
+* Conditional workflow logic based on invoice amount
+* Auto-approval for low-value invoices
+* Manager approval workflow for high-value invoices
+* Invoice status tracking
+* ERP-style business process simulation
+* Operational workflow visualization
+
+---
+
+## Workflow Logic
+
+```text
+Invoice Submitted
+        ↓
+Amount Validation
+        ↓
+Under $5,000?
+   ↓ Yes             ↓ No
+Auto Approved     Manager Review
+        ↓
+Invoice Status Updated
+        ↓
+Workflow Completed
+```
+
+---
+
+## Business Value
+
+* Reduces manual approval effort
+* Improves invoice processing efficiency
+* Demonstrates ERP workflow automation concepts
+* Simulates enterprise finance operations
+* Supports scalable approval management processes
+
+---
+
+## Technologies Used
+
+* Python
+* Workflow Automation Logic
+* ERP Process Design
+* Excel
+* GitHub
+
+---
+
+## Screenshots
+
+### Initial Dashboard
+
+(Add dashboard screenshot here)
+
+### Approval Workflow
+
+(Add workflow screenshot here)
+
+### Approval Stage 2
+
+(Add approval stage screenshot here)
+
+---
+
+## Future Enhancements
+
+* Real NetSuite API integration
+* OCR-based invoice extraction
+* AI-powered approval recommendations
+* Multi-level approval hierarchy
+* Email notification system
+* Audit logging and monitoring
+* Power BI analytics dashboard
+* Azure deployment integration
+
+---
+
+## Project Goal
+
+The goal of this project is to demonstrate practical ERP workflow automation concepts using a finance-focused invoice approval process inspired by real-world NetSuite and enterprise operational systems.
+
+---
+
+## Repository Structure
+
+```text
+Netsuite-invoice-automation/
+│
+├── Invoice_workflow.xlsx
+├── README.md
+├── screenshots/
+└── workflow_logic/
+```
+
+---
+
+## Author
+
+Ambika Rompy
+
+GitHub: https://github.com/Ambika504
