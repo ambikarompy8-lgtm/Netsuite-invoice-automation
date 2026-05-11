@@ -59,23 +59,6 @@ Workflow Completed
 * Excel
 * GitHub
 
----
-
-## Screenshots
-
-### Initial Dashboard
-
-(Add dashboard screenshot here)
-
-### Approval Workflow
-
-(Add workflow screenshot here)
-
-### Approval Stage 2
-
-(Add approval stage screenshot here)
-
----
 
 ## Future Enhancements
 
